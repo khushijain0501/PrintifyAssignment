@@ -57,7 +57,7 @@ const Slider = () => {
       <Slider1 {...settings} className=' bg-[#F5F5F5] xl:ml-20 pb-4 '>
         {content.map((ele,index)=>{
             return (
-                <div className='flex flex-col justify-center items-center my-6 px-40'>
+                <div className='flex flex-col justify-center items-center my-6 px-8'>
                     <img src={ele.img} alt="img" className='w-56 h-56 m-auto '/>
                     <div className='font-bold text-xl text-[#3cb45c] text-center'>{ele.heading1}</div>
                     <div className='font-bold text-lg text-center'>{ele.heading2}</div>

@@ -23,9 +23,9 @@ const ProductsRange = () => {
             <div className='grid grid-cols-3 gap-3'>
                 {images.map((image,i)=>{
                     return (
-                        <div className='bg-white relative rounded-md shadow-inner shadow-gray-400/70 border-[2.5px] border-[#3cb45c] w-28 h-28 sm:w-32 sm:h-32 md:w-36 md:h-36 lg:w-40 lg:h-40 xl:w-44 xl:h-44 xl:gap-4 hover:bg-gray-200 cursor-pointer group'>
+                        <div className='bg-white relative rounded-md shadow-inner shadow-gray-400/70 border-[2.5px] border-[#3cb45c] w-14 h-14 sm:w-32 sm:h-32 md:w-36 md:h-36 lg:w-40 lg:h-40 xl:w-44 xl:h-44 xl:gap-4 hover:bg-gray-200 cursor-pointer group'>
                             <div className='absolute top-[30%] left-[30%] group-hover:opacity-0'>
-                            <img src={image.img} className='w-10 md:w-12 lg:w-14 xl:w-16'/>
+                            <img src={image.img} className='w-6 sm:w-10 md:w-12 lg:w-14 xl:w-16'/>
                             </div>
                             <div className='opacity-0 bg-gray-200 w-full h-full flex justify-center items-center  font-semibold text-lg group-hover:opacity-100'>{image.name}</div>
                         </div>
